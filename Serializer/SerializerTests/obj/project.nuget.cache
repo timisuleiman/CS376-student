@@ -1,23 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "KjceqeWuJek=",
+  "dgSpecHash": "APm0MQPU+KE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ianho\\Documents\\GitHub\\CS376-student\\Serializer\\SerializerTests\\SerializerTests.csproj",
+  "projectFilePath": "C:\\Users\\osule\\Documents\\GitHub\\CS376-student\\Serializer\\SerializerTests\\SerializerTests.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ianho\\.nuget\\packages\\coverlet.collector\\10.0.1\\coverlet.collector.10.0.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.codecoverage\\18.10.1\\microsoft.codecoverage.18.10.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.net.test.sdk\\18.10.1\\microsoft.net.test.sdk.18.10.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.4.1\\microsoft.testing.extensions.telemetry.2.4.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.4.1\\microsoft.testing.extensions.trxreport.abstractions.2.4.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.testing.platform\\2.4.1\\microsoft.testing.platform.2.4.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.4.1\\microsoft.testing.platform.msbuild.2.4.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.10.1\\microsoft.testplatform.objectmodel.18.10.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\microsoft.testplatform.testhost\\18.10.1\\microsoft.testplatform.testhost.18.10.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\mstest.analyzers\\4.4.1\\mstest.analyzers.4.4.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\mstest.testadapter\\4.4.1\\mstest.testadapter.4.4.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\mstest.testframework\\4.4.1\\mstest.testframework.4.4.1.nupkg.sha512",
-    "C:\\Users\\ianho\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\osule\\.nuget\\packages\\coverlet.collector\\10.0.1\\coverlet.collector.10.0.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.codecoverage\\18.10.1\\microsoft.codecoverage.18.10.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.net.test.sdk\\18.10.1\\microsoft.net.test.sdk.18.10.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.4.1\\microsoft.testing.extensions.telemetry.2.4.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.4.1\\microsoft.testing.extensions.trxreport.abstractions.2.4.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.testing.platform\\2.4.1\\microsoft.testing.platform.2.4.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.4.1\\microsoft.testing.platform.msbuild.2.4.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.10.1\\microsoft.testplatform.objectmodel.18.10.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\microsoft.testplatform.testhost\\18.10.1\\microsoft.testplatform.testhost.18.10.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\mstest.analyzers\\4.4.1\\mstest.analyzers.4.4.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\mstest.testadapter\\4.4.1\\mstest.testadapter.4.4.1.nupkg.sha512",
+    "C:\\Users\\osule\\.nuget\\packages\\mstest.testframework\\4.4.1\\mstest.testframework.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }

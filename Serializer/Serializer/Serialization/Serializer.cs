@@ -152,7 +152,7 @@ namespace FakeUnityEngine
                     " ]");
         }
 
-                /// <summary>
+        /// <summary>
         /// Table of objects that have already been serialized.
         /// If idTable.ContainsKey(object), then that object has been
         /// serialized and its id number is idTable[object].
@@ -190,28 +190,28 @@ namespace FakeUnityEngine
             switch (o)
             {
                 case null:
-                    throw new NotImplementedException("Fill me in");
+                    Write("null");
                     break;
 
                 case int i:
-                    throw new NotImplementedException("Fill me in");
+                    Write(i);
                     break;
 
                 case float f:
-                    throw new NotImplementedException("Fill me in");
+                    Write(f);
                     break;
 
                 // Not: don't worry about handling strings that contain quote marks
                 case string s:
-                    throw new NotImplementedException("Fill me in");
+                    Write("\"" + s + "\"");
                     break;
 
                 case bool b:
-                    throw new NotImplementedException("Fill me in");
+                    Write(b);
                     break;
 
                 case IList list:
-                    throw new NotImplementedException("Fill me in");
+                    WriteList(list);
                     break;
 
                 default:
@@ -231,7 +231,23 @@ namespace FakeUnityEngine
         /// <param name="o">Object to serialize</param>
         private void WriteComplexObject(object o)
         {
-            throw new NotImplementedException("Fill me in");
+            var (id, isNew) = GetId(o);
+
+            Write("#" + id);
+
+            // seen it already, so just the id
+            if (!isNew)
+                return;
+
+            WriteBracketedExpression("{", () =>
+            {
+                // type goes first
+                WriteField("type", o.GetType().Name, true);
+
+                // then the rest of the fields
+                foreach (var pair in Utilities.SerializedFields(o))
+                    WriteField(pair.Key, pair.Value, false);
+            }, "}");
         }
     }
 }
